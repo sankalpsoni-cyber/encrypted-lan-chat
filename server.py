@@ -3,7 +3,11 @@ import socket
 import threading
 
 HOST = '0.0.0.0'
+<<<<<<< HEAD
 PORT = int(os.environ.get("PORT",5555))
+=======
+PORT = 5555
+>>>>>>> 7151db86d107f277330dd586621b5cc5e234b7ed
 
 clients = []
 
