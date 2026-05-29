@@ -1,8 +1,9 @@
+import os
 import socket
 import threading
 
-HOST = '127.0.0.1'
-PORT = 5555
+HOST = '0.0.0.0'
+PORT = int(os.environ.get("PORT",5555))
 
 clients = []
 
